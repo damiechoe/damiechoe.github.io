@@ -1,0 +1,110 @@
+body { 
+	color: black;
+	font-family: Oxygen;
+ 	margin-bottom: 60px;
+}
+
+h1 {
+ 	margin-bottom: 0; font-size: 24px; font-weight: bold;
+ 	font-family: Oxygen, 'Helvetica', sans-serif;
+ 	text-align: center;
+ }
+
+h4 { 
+ 	margin-top: 0;
+ 	font-family: Oxygen, 'Helvetica', sans-serif;
+ 	font-weight: 300;
+ 	font-size: 10.35px;
+ 	text-align: center; 
+ }
+
+.project-titles {
+	display:inline-block;
+	color: black;
+	font-size: 5vw;
+	transition: 0.3s;
+	text-align: left;
+	font-family: 'Oxygen','Helvetica', sans-serif;
+	font-weight: 700;
+	margin-top: 10vh;
+	padding: 8px 16px;
+	vertical-align: middle;
+ }
+
+a#btn_1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1vh;
+	padding: 8px 16px;
+	color: black;
+	text-decoration: none;
+}
+
+a#btn_1:hover{
+
+	color: #5ab2fa;
+	transition: 0.4s;
+}
+
+a#btn_2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1vh;
+	padding: 8px 16px;
+	color: black;
+	text-decoration: none;
+}
+
+a#btn_2:hover{
+	color: #02edf5;
+	transition: 0.4s;
+}
+
+a#btn_3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1vh;
+	padding: 8px 16px;
+	color: black;
+	text-decoration: none;
+}
+
+a#btn_3:hover{
+	color: #f79cdd;
+	transition: 0.4s;
+}
+
+a#btn_4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1vh;
+	padding: 8px 16px;
+	color: black;
+	text-decoration: none;
+}
+
+a#btn_4:hover{
+	color: #0f8003;
+	transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
