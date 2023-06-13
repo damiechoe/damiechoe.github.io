@@ -19,7 +19,7 @@ h4 {
  }
 
 .project-titles {
-	/*display:inline-block;*/
+	display:inline-block;
 	color: black;
 	font-size: 5vw;
 	transition: 0.3s;
