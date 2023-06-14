@@ -32,7 +32,7 @@ h4 {
  }
 
 a#btn_1 {
-	display: flex;
+	display:inline-block;
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 1vh;
@@ -48,7 +48,7 @@ a#btn_1:hover{
 }
 
 a#btn_2 {
-	display: flex;
+	display:inline-block;
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 1vh;
@@ -63,7 +63,7 @@ a#btn_2:hover{
 }
 
 a#btn_3 {
-	display: flex;
+	display:inline-block;
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 1vh;
@@ -78,7 +78,7 @@ a#btn_3:hover{
 }
 
 a#btn_4 {
-	display: flex;
+	display:inline-block;
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 1vh;
