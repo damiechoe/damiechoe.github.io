@@ -1,22 +1,91 @@
-body { 
-	color: black;
-	font-family: Oxygen;
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#front-page { 
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	/*border: 30px solid white;*/
+	overflow: hidden;
+	height: 100vh;
+ 	/*background-color: black;*/
+	color: #fffeee;
+	font-family: Oxygen, 'Helvetica', sans-serif;;
  	margin-bottom: 60px;
 }
 
 h1 {
- 	margin-bottom: 0; font-size: 24px; font-weight: bold;
- 	font-family: Oxygen, 'Helvetica', sans-serif;
- 	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+ 	margin-bottom: 0; 
+ 	font-size: 10vh; 
+ 	font-weight: bold;
+ 	/*font-family: 'EB Garamond', serif;*/
+ 	font-family: 'Oxygen','Helvetica', sans-serif;
+ 	text-align: left;
  }
 
-h4 { 
- 	margin-top: 0;
- 	font-family: Oxygen, 'Helvetica', sans-serif;
- 	font-weight: 300;
- 	font-size: 10.35px;
- 	text-align: center; 
+ #blurb {
+    padding-top: 40px;
+    padding-left: 40px;
  }
+
+ #about-me {
+ 	width: 50%;
+ }
+
+#email {
+	color: white;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.button {
+    /*background-color: #333;*/
+    /*color: white;*/
+    /*padding: 10px 20px;*/
+    /*border: none;*/
+    /*border-radius: 5px;*/
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: 'Oxygen','Helvetica', sans-serif;
+ }
+
+
+
+ .button:hover {
+ 	color: orange;
+ 	transition: 0.4s;
+ }
+
+
+ table, td {
+  border: 1px solid black;
+}
+
+
+
+/*<--------------------------------------------------------TEMPORARY--------------------------------------------------------->*/
+
+
+ .two {
+ 	color: black;
+ }
+
+.two:hover {
+	color: orange;
+	transition: 0.4s;
+}
 
 .project-titles {
 	display:inline-block;
@@ -29,6 +98,10 @@ h4 {
 	margin-top: 10vh;
 	padding: 8px 16px;
 	vertical-align: middle;
+ }
+
+ li {
+ 	font-family: 'Oxygen','Helvetica', sans-serif;
  }
 
 a#btn_1 {
@@ -91,20 +164,6 @@ a#btn_4:hover{
 	color: #0f8003;
 	transition: 0.4s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
